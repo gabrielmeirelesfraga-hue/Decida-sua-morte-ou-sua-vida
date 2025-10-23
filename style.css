@@ -7,10 +7,34 @@
 --light-blue: #a9d6e5ff;
 }
  body {
-    background-color: var(--prussian-blue);
-    
+    background-color: var(--ucla-blue);
+    font-family: var(--texto);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ }
+ main {
+  margin-top: 20px;
+  max-width: 90%;
+  text-align: center;
+ }
+ button{
+    font-family: var(--titulo);
+    background-color: var(--cerulean);
+    color: var(--prussian-blue);
+    border: 2px solid var(--cerulean);
+    padding: 20px 30px;
+    margin: 10px 0;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 20px;
+  
  }
 
- p { 
-   color: var(--light-blue);
- }
+button:hover{
+  background-color: var(--prussian-blue);
+  color: var(--light-blue);
+  transition: 0.5s;
+}
